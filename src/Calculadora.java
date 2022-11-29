@@ -1,7 +1,11 @@
 public class Calculadora {
     public void soma(){};
-    public void subtracao(){};
-    public void divisao(){};
+    public double subtracao(double a, double b){
+        return a - b;
+    };
+    public double divisao(double a, double b){
+        return a/b;
+    };
     public void multiplicacao(){};
 
     public double exponecial(double a, double b){
