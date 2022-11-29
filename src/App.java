@@ -5,6 +5,9 @@ public class App {
 
         ValorCompra valorCompra = new ValorCompra();
         System.out.println(valorCompra.valorCompra(25.5, 4));
+
+        AreaTrapezio areaTrapezio = new AreaTrapezio();
+        System.out.println(areaTrapezio.areaTrapezio(5, 15, 8));
         
     }
 }
