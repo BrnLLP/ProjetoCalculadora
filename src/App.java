@@ -8,6 +8,10 @@ public class App {
 
         AreaTrapezio areaTrapezio = new AreaTrapezio();
         System.out.println(areaTrapezio.areaTrapezio(5, 15, 8));
+
+        AreaCirculo areaCirculo = new AreaCirculo();
+        System.out.println(areaCirculo.areaCirculo(10));
+
         
     }
 }
