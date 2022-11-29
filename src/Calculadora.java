@@ -1,13 +1,16 @@
 public class Calculadora {
-    public void soma(){};
+    public double soma(double a, double b){
+        return a + b;
+    };
     public double subtracao(double a, double b){
         return a - b;
     };
     public double divisao(double a, double b){
         return a/b;
     };
-    public void multiplicacao(){};
-
+    public double multiplicacao(double a, double b){
+        return a * b;
+    };
     public double exponecial(double a, double b){
         return Math.pow(a, b);
     };
