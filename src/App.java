@@ -12,6 +12,10 @@ public class App {
         AreaCirculo areaCirculo = new AreaCirculo();
         System.out.println(areaCirculo.areaCirculo(10));
 
-        
+        AreaLosango areaLosango = new AreaLosango();
+        System.out.println(areaLosango.areaLosango(10, 5));
+
+        AreaQuadrado areaQuadrado = new AreaQuadrado();
+        System.out.println(areaQuadrado.areaQuadrado(5));
     }
 }
